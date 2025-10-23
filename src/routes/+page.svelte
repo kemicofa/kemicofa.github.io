@@ -8,26 +8,24 @@
 
 <div class="bg-red-900">
 	<div class="relative flex min-h-screen min-w-screen flex-col bg-amber-50 p-4">
-		<div class="z-10 flex grow flex-col gap-24">
+		<div class="z-10 flex flex-col gap-4 md:gap-16">
 			<div class="flex flex-col items-center justify-between md:flex-row">
-				<div class="flex flex-col">
-					<div class="flex flex-col items-center gap-8 md:flex-row">
-						<div
-							class="relative flex h-32 w-32 justify-center before:absolute before:inset-0 before:animate-[pulse_6s_ease-in-out_infinite] before:rounded-full before:bg-amber-100"
-						>
-							<figure class="flex flex-col justify-center">
-								<img
-									class="relative z-10 w-24 rounded-full"
-									alt="Profile of Kevin Faulhaber"
-									src={asset('/kemicofa.jpg')}
-								/>
-							</figure>
-						</div>
+				<div class="flex flex-col items-center gap-4 md:flex-row md:gap-8">
+					<div
+						class="relative flex h-32 w-32 justify-center before:absolute before:inset-0 before:animate-[pulse_6s_ease-in-out_infinite] before:rounded-full before:bg-amber-100"
+					>
+						<figure class="flex flex-col justify-center">
+							<img
+								class="relative z-10 w-24 rounded-full"
+								alt="Profile of Kevin Faulhaber"
+								src={asset('/kemicofa.jpg')}
+							/>
+						</figure>
+					</div>
 
-						<div class="flex flex-col gap-1">
-							<h1 class="font-serif text-4xl font-medium sm:text-center">Kevin Faulhaber</h1>
-							<span class="text-center md:text-left">Senior Software Engineer</span>
-						</div>
+					<div class="flex flex-col gap-1">
+						<h1 class="font-serif text-4xl font-medium sm:text-center">Kevin Faulhaber</h1>
+						<span class="text-center md:text-left">Senior Software Engineer</span>
 					</div>
 				</div>
 				<aside class="flex justify-end gap-4 px-4 py-2">
@@ -43,7 +41,7 @@
 					</a>
 				</aside>
 			</div>
-			<div class="flex flex-col items-center justify-center gap-16">
+			<div class="flex flex-col items-center justify-center gap-8 md:gap-16">
 				<div class="flex flex-col items-center justify-center gap-1 [&_*]:text-center">
 					<p class="text-xl">I build things pragmatically.</p>
 					<p class="font-serif text-2xl font-medium">
@@ -59,7 +57,6 @@
 					<ArrowDown size={42} />
 				</a>
 			</div>
-			<div class="grow"></div>
 		</div>
 
 		<div class="absolute top-0 left-0">
