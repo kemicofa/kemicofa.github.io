@@ -67,137 +67,137 @@
 		</div>
 	</div>
 
-	<div class="h-128 bg-linear-to-b from-warm-red to-red-900 md:h-64"></div>
-	<Slider />
-	<section
-		id="about-me"
-		class="mt-24 grid grid-cols-1 gap-4 px-8 sm:grid-cols-2 md:grid-cols-3 [&_*]:text-white"
-	>
-		<Section
-			title="Open Source"
-			items={[
-				{
-					title: 'nuke_modules',
-					link: 'https://github.com/kemicofa/nuke_modules',
-					description: `A CLI built with Rust to find all node_modules starting from the current working directory and delete them.`
-				},
-				{
-					title: 'Real Time Cartographer',
-					link: 'https://github.com/kemicofa/rtc',
-					description: `A project built in Rust to generate a visualization of a GCP cloud infrastructure by parsing logs and inferring relationships and adding them to a graph database.`
-				},
-				{
-					title: 'Chockblain',
-					link: 'https://github.com/kemicofa/chockblain',
-					description: 'A small blockchain library built with Typescript & Deno'
-				}
-			]}
-		/>
-		<Section
-			title={`${new Date().getFullYear() - 2015} years of Experience`}
-			items={[
-				{
-					title: 'Shine.fr',
-					link: 'https://shine.fr',
-					description: `
+	<div id="about-me">
+		<div class="h-128 bg-linear-to-b from-warm-red to-red-900 md:h-64"></div>
+		<Slider />
+		<section
+			class="mt-24 grid grid-cols-1 gap-4 px-8 sm:grid-cols-2 md:grid-cols-3 [&_*]:text-white"
+		>
+			<Section
+				title="Open Source"
+				items={[
+					{
+						title: 'nuke_modules',
+						link: 'https://github.com/kemicofa/nuke_modules',
+						description: `A CLI built with Rust to find all node_modules starting from the current working directory and delete them.`
+					},
+					{
+						title: 'Real Time Cartographer',
+						link: 'https://github.com/kemicofa/rtc',
+						description: `A project built in Rust to generate a visualization of a GCP cloud infrastructure by parsing logs and inferring relationships and adding them to a graph database.`
+					},
+					{
+						title: 'Chockblain',
+						link: 'https://github.com/kemicofa/chockblain',
+						description: 'A small blockchain library built with Typescript & Deno'
+					}
+				]}
+			/>
+			<Section
+				title={`${new Date().getFullYear() - 2015} years of Experience`}
+				items={[
+					{
+						title: 'Shine.fr',
+						link: 'https://shine.fr',
+						description: `
 					A leading French online bank supporting small businesses by
 					automating administrative processes and simplifying financial management.	
 				`,
-					yearRange: {
-						start: '2020',
-						end: 'present'
-					}
-				},
-				{
-					title: 'Ogury.com',
-					link: 'https://ogury.com',
-					description: `
+						yearRange: {
+							start: '2020',
+							end: 'present'
+						}
+					},
+					{
+						title: 'Ogury.com',
+						link: 'https://ogury.com',
+						description: `
 					A global mobile ad tech company serving over 400 million devices worldwide.	
 				`,
-					yearRange: {
-						start: '2019',
-						end: '2020'
-					}
-				},
-				{
-					title: 'Freelance',
-					description: `
+						yearRange: {
+							start: '2019',
+							end: '2020'
+						}
+					},
+					{
+						title: 'Freelance',
+						description: `
 					Worked closely with IRCAD and IHU over a two-year period on an innovative full-stack project aimed at helping diagnose gastroesophageal reflux disease (GERD).
 				`,
-					yearRange: {
-						start: '2017',
-						end: '2019'
-					}
-				},
-				{
-					title: 'University Teacher',
-					description: `
+						yearRange: {
+							start: '2017',
+							end: '2019'
+						}
+					},
+					{
+						title: 'University Teacher',
+						description: `
 					Robert Schuman, Strasbourg — Introduction to HTML, CSS, and JavaScript.
 					Supinfo, Strasbourg — Deep dive into iOS development with Swift and Xcode.
 					CCI, Colmar — Bluetooth communication fundamentals.
 				`,
-					yearRange: {
-						start: '2018',
-						end: '2021'
-					}
-				},
-				{
-					title: 'WeBSurg',
-					description: `
+						yearRange: {
+							start: '2018',
+							end: '2021'
+						}
+					},
+					{
+						title: 'WeBSurg',
+						description: `
 					Apprenticeship at the world's largest online university
 					for minimally invasive surgery.	
 				`,
-					link: 'https://websurg.com',
-					yearRange: {
-						start: '2015',
-						end: '2017'
+						link: 'https://websurg.com',
+						yearRange: {
+							start: '2015',
+							end: '2017'
+						}
 					}
-				}
-			]}
-		/>
-		<Section
-			title="Education"
-			items={[
-				{
-					title: "Master's Degree",
-					description: '@ Supinfo',
-					link: 'https://supinfo.com',
-					yearRange: {
-						start: '2015',
-						end: '2017'
+				]}
+			/>
+			<Section
+				title="Education"
+				items={[
+					{
+						title: "Master's Degree",
+						description: '@ Supinfo',
+						link: 'https://supinfo.com',
+						yearRange: {
+							start: '2015',
+							end: '2017'
+						}
+					},
+					{
+						title: "Bachlor's Degree",
+						description: '@ University Robert Schuman',
+						link: 'https://iutrs.unistra.fr',
+						yearRange: {
+							start: '2014',
+							end: '2015'
+						}
+					},
+					{
+						title: 'University of Technology Diplome',
+						description: '@ University Robert Schuman',
+						link: 'https://iutrs.unistra.fr',
+						yearRange: {
+							start: '2012',
+							end: '2014'
+						}
 					}
-				},
-				{
-					title: "Bachlor's Degree",
-					description: '@ University Robert Schuman',
-					link: 'https://iutrs.unistra.fr',
-					yearRange: {
-						start: '2014',
-						end: '2015'
-					}
-				},
-				{
-					title: 'University of Technology Diplome',
-					description: '@ University Robert Schuman',
-					link: 'https://iutrs.unistra.fr',
-					yearRange: {
-						start: '2012',
-						end: '2014'
-					}
-				}
-			]}
-		/>
-	</section>
+				]}
+			/>
+		</section>
 
-	<div class="my-24 flex justify-center">
-		<a
-			rel="noopener noreferrer"
-			target="_blank"
-			href="https://linkedin.com/in/kevin-faulhaber"
-			class="cursor rounded bg-black px-4 py-2 text-white">Hire me</a
-		>
+		<div class="my-24 flex justify-center">
+			<a
+				rel="noopener noreferrer"
+				target="_blank"
+				href="https://linkedin.com/in/kevin-faulhaber"
+				class="cursor rounded bg-black px-4 py-2 text-white">Hire me</a
+			>
+		</div>
 	</div>
-
 	<footer class="mt-24 flex flex-row justify-center py-4 [&_*]:text-white">
 		<span class="text-center">© {new Date().getFullYear()} Kemicofa Germany </span>
 	</footer>
