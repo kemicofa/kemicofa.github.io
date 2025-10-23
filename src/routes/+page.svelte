@@ -8,7 +8,7 @@
 
 <div class="bg-red-900">
 	<div class="relative flex min-h-screen min-w-screen flex-col bg-amber-50 p-4">
-		<div class="z-10 flex grow flex-col">
+		<div class="z-10 flex grow flex-col gap-24">
 			<div class="flex flex-col items-center justify-between md:flex-row">
 				<div class="flex flex-col">
 					<div class="flex flex-col items-center gap-8 md:flex-row">
@@ -43,7 +43,7 @@
 					</a>
 				</aside>
 			</div>
-			<div class="flex grow flex-col items-center justify-center gap-16">
+			<div class="flex flex-col items-center justify-center gap-16">
 				<div class="flex flex-col items-center justify-center gap-1 [&_*]:text-center">
 					<p class="text-xl">I build things pragmatically.</p>
 					<p class="font-serif text-2xl font-medium">
