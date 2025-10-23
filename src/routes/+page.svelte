@@ -67,7 +67,7 @@
 		</div>
 	</div>
 
-	<div class="h-64 bg-linear-to-b from-warm-red to-red-900"></div>
+	<div class="h-128 bg-linear-to-b from-warm-red to-red-900 md:h-64"></div>
 	<Slider />
 	<section
 		id="about-me"
