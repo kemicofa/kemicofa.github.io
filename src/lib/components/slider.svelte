@@ -254,6 +254,9 @@
 				</button>
 			{/each}
 		</div>
+		<div class="mt-4 w-full text-center">
+			<span class="font-serif text-sm font-medium">hint: click an icon</span>
+		</div>
 	</div>
 </div>
 

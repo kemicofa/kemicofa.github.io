@@ -195,6 +195,7 @@
 			>
 		</div>
 	</div>
+
 	<footer class="mt-24 flex flex-row justify-center py-4 [&_*]:text-white">
 		<span class="text-center">© {new Date().getFullYear()} Kemicofa Germany </span>
 	</footer>
